@@ -1,0 +1,86 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/moviecard"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="4dp">
+
+
+        <RelativeLayout
+            android:id="@+id/nested_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/lnLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageposter"
+                    android:layout_width="@dimen/card_width"
+                    android:layout_height="250dp"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/poster" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/releasedate"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="@string/rdate"
+                        android:textSize="@dimen/text_size"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/rating"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="@string/movie_rating"
+                        android:textSize="@dimen/text_size"
+                        android:textStyle="bold" />
+
+                    <com.like.LikeButton
+                        android:id="@+id/heart_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        app:anim_scale_factor="3"
+                        app:dots_primary_color="@color/colorAccent"
+                        app:dots_secondary_color="@color/colorPrimary"
+                        app:icon_size="25dp"
+                        app:icon_type="heart" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/plot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lnLayout"
+                android:layout_margin="5dp"
+                android:layout_marginTop="@dimen/plot_top_margin" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</android.support.v4.widget.NestedScrollView>
