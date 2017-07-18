@@ -62,15 +62,29 @@ When the "favorites" setting option is selected, the main view displays the enti
 Code review By reviewer:
 https://review.udacity.com/#!/reviews/221037
 
+
 Screenshots
+
+
 [![Screenshot_2016-09-04-14-59-30-509_com.example.b.png](https://s2.postimg.org/f9noyxhkp/Screenshot_2016-09-04-14-59-30-509_com.example.b.png)](https://postimg.org/image/xcgrq5df9/)
+
+
 [![Screenshot_2016-09-04-15-01-05-176_com.example.b.png](https://s13.postimg.org/47dbzdfmf/Screenshot_2016-09-04-15-01-05-176_com.example.b.png)](https://postimg.org/image/snvhtugcz/)
+
 [![image.png](https://s1.postimg.org/4c3eqx63j/image.png)](https://postimg.org/image/woywhdrtn/)
+
 [![image.png](https://s17.postimg.org/q2ne1zra7/image.png)](https://postimg.org/image/p0d7jg8gr/)
+
 [![image.png](https://s17.postimg.org/fpssx308f/image.png)](https://postimg.org/image/ar5aijwff/)
+
 [![image.png](https://s17.postimg.org/9tbyu6nan/image.png)](https://postimg.org/image/e2gowcqjv/)
+
 [![image.png](https://s13.postimg.org/w1lvps04n/image.png)](https://postimg.org/image/kp9a7zrfn/)
+
 [![image.png](https://s13.postimg.org/aqqsquz9z/image.png)](https://postimg.org/image/dkty4b1g3/)
+
 [![image.png](https://s9.postimg.org/ojmj3u4of/image.png)](https://postimg.org/image/3zhp5cox7/)
+
 [![image.png](https://s21.postimg.org/5dpzp3qtj/image.png)](https://postimg.org/image/xdu39du9v/)
+
 [![image.png](https://s18.postimg.org/gjidx6ae1/image.png)](https://postimg.org/image/6yyraal1x/)
